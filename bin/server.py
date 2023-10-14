@@ -4,7 +4,7 @@ import torch
 from transformers import VisionEncoderDecoderModel
 from transformers import TrOCRProcessor
 
-model_path = 'models/20231014-15-37'
+model_path = 'models/20231014-16-52'
 
 
 processor = TrOCRProcessor.from_pretrained("microsoft/trocr-small-printed")
@@ -26,4 +26,4 @@ demo = gr.Interface(
     examples=['examples/c3xavu.png'],
 )
 
-demo.launch() # share=True
+demo.launch(share=True)
