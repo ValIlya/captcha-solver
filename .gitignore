@@ -163,3 +163,5 @@ models/*
 flagged/*
 
 .python-version
+
+.DS_Store
