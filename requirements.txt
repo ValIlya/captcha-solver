@@ -1,0 +1,8 @@
+gdown
+gradio
+datasets
+torch
+jiwer
+transformers
+sentencepiece
+protobuf
